@@ -1,0 +1,38 @@
+/**
+ * @file
+ * The main plugin cascading style sheet.
+ *
+ * All the div class styling needed for this plugin.
+ *
+ * Author: Mitch Rompelman.
+ * Date: 16-04-2014.
+ * Date modified. 16-04-2014.
+ * Time: 9:42:01.
+ */
+ 
+div.handy-print-holder {
+	width: 80px;
+	height: 40px;
+	margin: 0px;
+	/* background: rgb(200,200,200); */
+}
+div.handy-print-print {
+	margin: 5px;
+	width: 30px;
+	height: 30px;
+	/* background: rgb(80,80,80); */
+	float: left;
+}
+div.handy-print-pdf {
+	margin: 5px;
+	width: 30px;
+	height: 30px;
+	/* background: rgb(80,80,80); */
+	float: left;
+}
+div.handy-print-print img:hover {
+	opacity:0.5;
+}
+div.handy-print-pdf img:hover {
+	opacity:0.5;
+}
